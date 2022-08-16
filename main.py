@@ -52,7 +52,7 @@ async def on_message(message):
 
     if message.channel.name == 'general':
         if user_message.lower() == 'help':
-            await message.channel.send(f"Hello {username}")
+            await message.channel.send(f"Hello {username}, the repo is at https://github.com/omaritgis/DiscordBots")
             return
         if "grep" in user_message.lower():
             # print message history for the channel
