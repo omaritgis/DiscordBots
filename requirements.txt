@@ -1,0 +1,4 @@
+pygame
+discord
+python-dotenv
+json
